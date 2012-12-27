@@ -1,5 +1,5 @@
 TEMPLATE = lib
-CONFIG += static
+CONFIG += static create_prl
 
 linux*|mac {
     INCLUDEPATH += ..
@@ -41,5 +41,7 @@ mac {
       ../common/mac/string_utilities.cc
 
     OBJECTIVE_SOURCES += ../common/mac/MachIPC.mm
+
+    LIBS += -framework CoreFoundation -framework CoreServices
 }
 
