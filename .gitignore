@@ -1,0 +1,6 @@
+*.o
+*.a
+*.prl
+*.swp
+Makefile*
+src/tools/*/dump_syms/dump_syms
