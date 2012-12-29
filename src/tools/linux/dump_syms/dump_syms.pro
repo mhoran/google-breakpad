@@ -1,6 +1,7 @@
 TEMPLATE = app
 TARGET = dump_syms
 DEFINES += HAVE_A_OUT_H
+CONFIG -= qt
 
 INCLUDEPATH += ../../..
 SOURCES += ../../../common/dwarf_cfi_to_module.cc \

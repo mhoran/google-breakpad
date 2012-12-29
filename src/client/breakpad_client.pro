@@ -1,5 +1,6 @@
 TEMPLATE = lib
 CONFIG += static create_prl
+CONFIG -= qt
 
 linux*|mac {
     INCLUDEPATH += ..
