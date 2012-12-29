@@ -22,6 +22,6 @@ SOURCES += ../../../common/module.cc \
   ../../../common/stabs_reader.cc
 
 TARGET = dump_syms
-CONFIG -= app_bundle
+CONFIG -= app_bundle qt
 DEFINES += HAVE_MACH_O_NLIST_H
 LIBS += -framework Foundation
