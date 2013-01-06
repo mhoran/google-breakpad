@@ -13,7 +13,6 @@ linux*|mac {
 
 linux* {
   SOURCES += linux/crash_generation/crash_generation_client.cc \
-    linux/crash_generation/crash_generation_server.cc \
     linux/handler/exception_handler.cc \
     linux/handler/minidump_descriptor.cc \
     linux/log/log.cc \
